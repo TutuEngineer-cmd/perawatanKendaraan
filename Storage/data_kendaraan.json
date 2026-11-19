@@ -1,0 +1,86 @@
+{
+    "knd_6aff03671d947": {
+        "id": "knd_6aff03671d947",
+        "jenis": "Motor",
+        "merk": "Honda",
+        "tipe": "Vario 160",
+        "tahun": 2024,
+        "totalEstimasiBiaya": 180000,
+        "daftarKomponen": [
+            {
+                "namaKomponen": "Oli Mesin",
+                "intervalBulan": 1,
+                "tanggalGantiTerakhir": "2026-10-15",
+                "estimasiBiaya": 65000,
+                "tenggatBerikutnya": "2026-11-15",
+                "status": "Wajib Ganti (Terlewat 4 hari)"
+            },
+            {
+                "namaKomponen": "Oli Gardan",
+                "intervalBulan": 3,
+                "tanggalGantiTerakhir": "2026-10-15",
+                "estimasiBiaya": 25000,
+                "tenggatBerikutnya": "2027-01-15",
+                "status": "Aman (56 hari lagi)"
+            },
+            {
+                "namaKomponen": "Filter Udara",
+                "intervalBulan": 12,
+                "tanggalGantiTerakhir": "2026-10-15",
+                "estimasiBiaya": 55000,
+                "tenggatBerikutnya": "2027-10-15",
+                "status": "Aman (329 hari lagi)"
+            },
+            {
+                "namaKomponen": "Minyak Rem",
+                "intervalBulan": 12,
+                "tanggalGantiTerakhir": "2026-10-15",
+                "estimasiBiaya": 35000,
+                "tenggatBerikutnya": "2027-10-15",
+                "status": "Aman (329 hari lagi)"
+            }
+        ]
+    },
+    "knd_6aff03671fda9": {
+        "id": "knd_6aff03671fda9",
+        "jenis": "Mobil",
+        "merk": "Toyota",
+        "tipe": "Avanza",
+        "tahun": 2023,
+        "totalEstimasiBiaya": 680000,
+        "daftarKomponen": [
+            {
+                "namaKomponen": "Oli Mesin (4 Liter)",
+                "intervalBulan": 3,
+                "tanggalGantiTerakhir": "2026-09-01",
+                "estimasiBiaya": 380000,
+                "tenggatBerikutnya": "2026-12-01",
+                "status": "Aman (11 hari lagi)"
+            },
+            {
+                "namaKomponen": "Filter Oli",
+                "intervalBulan": 6,
+                "tanggalGantiTerakhir": "2026-09-01",
+                "estimasiBiaya": 65000,
+                "tenggatBerikutnya": "2027-03-01",
+                "status": "Aman (101 hari lagi)"
+            },
+            {
+                "namaKomponen": "Filter Udara",
+                "intervalBulan": 12,
+                "tanggalGantiTerakhir": "2026-09-01",
+                "estimasiBiaya": 140000,
+                "tenggatBerikutnya": "2027-09-01",
+                "status": "Aman (285 hari lagi)"
+            },
+            {
+                "namaKomponen": "Minyak Rem",
+                "intervalBulan": 12,
+                "tanggalGantiTerakhir": "2026-09-01",
+                "estimasiBiaya": 95000,
+                "tenggatBerikutnya": "2027-09-01",
+                "status": "Aman (285 hari lagi)"
+            }
+        ]
+    }
+}
