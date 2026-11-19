@@ -20,7 +20,7 @@ abstract class Kendaraan
         $this->tahun = $tahun;
     }
 
-    // Method abstrak yang wajib di-override oleh subclass (Polymorphism)
+    
     abstract public function inisialisasiKomponenDefault(string $tanggalAwal): void;
 
     public function tambahKomponen(KomponenPerawatan $komponen): void

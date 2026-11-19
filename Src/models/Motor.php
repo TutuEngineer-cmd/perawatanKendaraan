@@ -4,7 +4,7 @@ require_once __DIR__ . '/Kendaraan.php';
 
 class Motor extends Kendaraan
 {
-    private string $jenisTransmisi; // Contoh: Matic / Manual
+    private string $jenisTransmisi; 
 
     public function __construct(string $merk, string $tipe, int $tahun, string $jenisTransmisi = 'Matic', ?string $id = null)
     {

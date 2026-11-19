@@ -4,7 +4,7 @@ class KomponenPerawatan
 {
     private string $namaKomponen;
     private int $intervalBulan;
-    private string $tanggalGantiTerakhir; // Format: YYYY-MM-DD
+    private string $tanggalGantiTerakhir; 
     private int $estimasiBiaya;
 
     public function __construct(
@@ -19,7 +19,7 @@ class KomponenPerawatan
         $this->estimasiBiaya = $estimasiBiaya;
     }
 
-    // Menghitung tanggal penggantian berikutnya berdasarkan interval bulan
+    
     public function hitungTenggatBerikutnya(): string
     {
         $tanggal = new DateTime($this->tanggalGantiTerakhir);
@@ -27,7 +27,7 @@ class KomponenPerawatan
         return $tanggal->format('Y-m-d');
     }
 
-    // Mengecek status kelayakan berdasarkan tanggal hari ini
+    
     public function cekStatusKelayakan(): string
     {
         $hariIni = new DateTime();
@@ -48,13 +48,13 @@ class KomponenPerawatan
         $this->tanggalGantiTerakhir = $tanggalBaru;
     }
 
-    // Getter methods (Encapsulation)
+    
     public function getNamaKomponen(): string { return $this->namaKomponen; }
     public function getIntervalBulan(): int { return $this->intervalBulan; }
     public function getTanggalGantiTerakhir(): string { return $this->tanggalGantiTerakhir; }
     public function getEstimasiBiaya(): int { return $this->estimasiBiaya; }
 
-    // Mengubah objek ke array agar mudah disimpan ke JSON
+    
     public function toArray(): array
     {
         return [

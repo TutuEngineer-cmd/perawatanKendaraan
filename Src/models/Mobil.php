@@ -4,7 +4,7 @@ require_once __DIR__ . '/Kendaraan.php';
 
 class Mobil extends Kendaraan
 {
-    private string $kapasitasMesin; // Contoh: 1500cc
+    private string $kapasitasMesin; 
 
     public function __construct(string $merk, string $tipe, int $tahun, string $kapasitasMesin = '1500cc', ?string $id = null)
     {
